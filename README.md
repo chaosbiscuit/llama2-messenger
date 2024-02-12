@@ -1,5 +1,7 @@
 # Node/Websocket Messenger Application with Llama2 Suggested Replies
 
+![Messenger Demo](img/demo.gif)
+
 **What it is:** This is a multi-client messenger application where users receive realtime message updates and context-aware suggested replies powered by the Llama2 model.
 
 **The stack:** The frontend is pure HTML/CSS/JavaScript and the backend is a Node.js/Express server leveraging websockets for realtime updates and client management. Suggested replies are provided server side and fulfilled by Ollama running the Llama2 model.
